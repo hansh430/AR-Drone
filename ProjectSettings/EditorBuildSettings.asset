@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: c9f812b4d0a34cc41abcc914c8b01e1a
+  - enabled: 1
+    path: Assets/DroneAR/Scenes/Drone.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Jet Engine AR/Scenes/Turbine.unity
+    guid: 972b56b51f201cc4b90138cf66d6f1b6
+  - enabled: 1
+    path: Assets/DragonAR/Scene/Dragon.unity
+    guid: 3734cd610cafe3a4ea5b3c30df41fd5c
+  - enabled: 1
+    path: Assets/ARBasketBall/BasketBall.unity
+    guid: fac4943d53035274ea343051ff9ac007
+  - enabled: 0
+    path: Assets/Testing/New Scene.unity
+    guid: b8b1564cbc2a4ed4081ee66c73609dc5
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: e74ce8ad3bf343a4a92fb6f9f73c8d93, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: aaf63798c1569f948a4761bc5335ad7f, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0feb4c44e0082f04794c0270581eda56, type: 2}
